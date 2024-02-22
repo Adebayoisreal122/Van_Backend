@@ -28,7 +28,7 @@ app.get('/api/vans/:id', (req, res) => {
         res.send(van);
     }
 });
-app.get('/api', (req, res) => {
+app.get('/', (req, res) => {
     res.send('API is running');
 })
 
